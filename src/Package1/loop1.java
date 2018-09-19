@@ -16,6 +16,24 @@ public void createMask()
 	for(int i = 0; i < word.length(); i++)
 		System.out.print("*");
 }
+public void whileSample()
+{
+	int i = 0;
+	while(keepRunning())
+	{
+		System.out.println("Help me, I cannot stop");
+		i++;
+	}
+
+}
+public boolean keepRunning() {
+	return true;
+}
+
+	{
+		
+	}
+	
 
 
 }
