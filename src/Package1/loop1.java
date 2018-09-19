@@ -14,6 +14,7 @@ public void createMask()
 {
 	String word = "Horse";
 	for(int i = 0; i < word.length(); i++)
+		
 		System.out.print("*");
 }
 public void whileSample()
@@ -27,7 +28,15 @@ public void whileSample()
 
 }
 public boolean keepRunning() {
-	return true;
+	int i = 0;
+	if(i < 12)
+	{
+		return true;
+	}
+	{
+	
+	}
+	return false;
 }
 
 	{
