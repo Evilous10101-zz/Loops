@@ -22,7 +22,7 @@ public void whileSample()
 	int i = 0;
 	while(keepRunning())
 	{
-		System.out.println("Help me, I cannot stop");
+		System.out.println("repeat");
 		i++;
 	}
 
