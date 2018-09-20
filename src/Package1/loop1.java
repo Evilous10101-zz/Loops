@@ -29,17 +29,14 @@ public void whileSample()
 }
 public boolean keepRunning() {
 	int i = 0;
-	if(i < 12)
-	{
-	return true;
-	}
-
-	{
+	if(i > 10) return true;
+	else
+		return false;
+ 
 	
-	}
-	{
-	return false;
-	}
+	
+	
+	
 }
 
 	{
