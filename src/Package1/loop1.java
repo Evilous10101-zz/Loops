@@ -19,17 +19,17 @@ public void createMask()
 }
 public void whileSample()
 {
-	int i = 0;
+	int I = 1;
 	while(keepRunning())
 	{
 		System.out.println("repeat");
-		i++;
+		I++;
 	}
 
 }
 public boolean keepRunning() {
-	int i = 0;
-	if(i > 10) return true;
+	int I = 0;
+	if(I > 10) return true;
 	else
 		return false;
  
